@@ -1,0 +1,69 @@
+# ===============================
+# DEPENDENCIAS
+# ===============================
+node_modules/
+**/node_modules/
+**/node_modules/.cache/
+
+# ===============================
+# BUILD / DIST
+# ===============================
+build/
+dist/
+dist-ssr/
+coverage/
+
+# ===============================
+# ARCHIVOS DE ENTORNO
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+.env.production.local
+.env.development.local
+.env.test.local
+
+# Mantener .env.example para documentación
+!.env.example
+
+# ===============================
+# VERCEL
+# ===============================
+.vercel/
+
+# ===============================
+# ZIP / BACKUPS (CRÍTICO)
+# ===============================
+*.zip
+*.rar
+*.7z
+
+# ===============================
+# LOGS
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===============================
+# EDITOR / IDE
+# ===============================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+# SISTEMA
+# ===============================
+.DS_Store
+Thumbs.db
